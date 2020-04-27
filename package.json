@@ -1,0 +1,20 @@
+{
+   "name": "sandbox",
+   "version": "0.0.1",
+   "description": "Convert memory analysis tools reports in database for later use",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "fast-xml-parser": "^3.16.0",
+      "reflect-metadata": "^0.1.10",
+      "sqlite3": "^4.1.1",
+      "typeorm": "0.2.24"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "build": "tsc"
+   }
+}
