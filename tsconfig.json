@@ -4,12 +4,16 @@
          "es5",
          "es6"
       ],
-      "target": "es5",
       "module": "commonjs",
       "moduleResolution": "node",
+      "declaration": true,
+      "removeComments": true,
+      "target": "es2017",
       "outDir": "./build",
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
-      "sourceMap": true
-   }
+      "sourceMap": true,
+      "baseUrl": "./",
+   },
+   "exclude": ["node_modules", "test", "dist", "build", "**/*spec.ts"]
 }
